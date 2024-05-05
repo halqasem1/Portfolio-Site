@@ -9,7 +9,6 @@ links.forEach(function(l){
         e.preventDefault();
         const id = e.currentTarget.getAttribute("href").slice(1);
         const element = document.getElementById(id);
-        const navHeight = navbar.getBoundingClientRect().height;
         let position = element.offsetTop - 150;
         
         window.scrollTo({
