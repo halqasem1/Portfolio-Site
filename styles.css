@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+h2 {
+    color: #353a54;
+}
+
+body {
+    background-color: #bdcbe3;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: #353a54;
+}
+
+#nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #7b90b6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    padding: 14px 30px;
+    float: right;
+}
+
+li a {
+    display: inline;
+    text-decoration: none;
+    color: #EAF3E4;
+}
+
+li a:hover {
+    color: rgb(76, 79, 113);
+}
+
+#openingLine {
+    font-size: 45px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+#introLine {
+    margin-left: 100px;
+    font-size: 65px;
+    color: #4f5ea7;
+}
+
+#descriptionLine {
+    margin-left: 100px;
+    font-size: 30px;
+    margin-bottom: 250px;
+}
+
+#aboutSection {
+    background-color: #333d6f;
+    width: 50%;
+    align-self: center;
+    line-height: 1.7;
+    margin-left: 20%;
+    padding: 40px;
+    border-radius: 20px;
+    color: #bdcbe3;
+}
+
+#aboutMe {
+    margin-left: 100px;
+    font-size: 45px;
+    color: #bdcbe3;
+}
+
+#projects {
+    margin-top: 250px;
+    margin-left: 30%;
+    font-size: 45px;
+}
+
+#contactSection {
+    margin-bottom: 150px;
+}
+
+#contact {
+    margin-top: 400px;
+    margin-left: 30%;
+    margin-bottom: 90px;
+    font-size: 45px;
+}
+
+#contactLinksContainer {
+    display: inline;
+}
+
+#contactLinksContainer a {
+    padding: 30px;
+    margin-left: 10%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333d6f;
+}
+
+#contactLinksContainer a:hover {
+    color: rgb(120, 123, 167);
+}
+
+#githubTag {
+    margin-top: 100px;
+    margin-left: 30%;
+}
