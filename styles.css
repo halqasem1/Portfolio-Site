@@ -24,7 +24,7 @@ body {
 }
 
 li {
-    padding: 14px 30px;
+    padding: 1% 1%;
     float: right;
 }
 
@@ -40,18 +40,18 @@ li a:hover {
 
 #openingLine {
     font-size: 45px;
-    margin-top: 150px;
-    margin-left: 50px;
+    margin-top: 10%;
+    margin-left: 15%;
 }
 
 #introLine {
-    margin-left: 100px;
+    margin-left: 15%;
     font-size: 65px;
     color: #4f5ea7;
 }
 
 #descriptionLine {
-    margin-left: 100px;
+    margin-left: 15%;
     font-size: 30px;
     margin-bottom: 250px;
 }
@@ -62,31 +62,31 @@ li a:hover {
     align-self: center;
     line-height: 1.7;
     margin-left: 20%;
-    padding: 40px;
+    padding: 5%;
     border-radius: 20px;
     color: #bdcbe3;
 }
 
 #aboutMe {
-    margin-left: 100px;
+    margin-left: 15%;
     font-size: 45px;
     color: #bdcbe3;
 }
 
 #projects {
-    margin-top: 250px;
+    margin-top: 20%;
     margin-left: 30%;
     font-size: 45px;
 }
 
 #contactSection {
-    margin-bottom: 150px;
+    margin-bottom: 5%;
 }
 
 #contact {
-    margin-top: 400px;
+    margin-top: 20%;
     margin-left: 30%;
-    margin-bottom: 90px;
+    margin-bottom: 5%;
     font-size: 45px;
 }
 
@@ -95,8 +95,8 @@ li a:hover {
 }
 
 #contactLinksContainer a {
-    padding: 30px;
-    margin-left: 10%;
+    padding: 2%;
+    margin: 5%;
     text-decoration: none;
     font-size: 20px;
     color: #333d6f;
@@ -107,6 +107,34 @@ li a:hover {
 }
 
 #githubTag {
-    margin-top: 100px;
+    margin-top: 5%;
     margin-left: 30%;
+}
+
+@media (max-width: 480px) {
+    li {
+        padding: 4% 4%;
+    }
+    #openingLine {
+        margin-top: 40%;
+        font-size: 25px;
+    }
+    #introLine {
+        font-size: 40px;
+    }
+    #descriptionLine {
+        font-size: 25px;
+    }
+    #aboutMe {
+        font-size: 25px;
+    }
+    #aboutSection {
+        font-size: 16px;
+    }
+    #contactLinksContainer a {
+        margin: 10%;
+    }
+    #githubTag {
+        margin-left: 10%;
+    }
 }
