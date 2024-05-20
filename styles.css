@@ -110,6 +110,7 @@ img {
     height: 200px;
     width: 350px;
     display: block;
+    border-radius: 20px;
 }
 
 .overlay {
@@ -124,6 +125,7 @@ img {
     opacity: 0;
     transition: .5s ease;
     background-color: black;
+    border-radius: 20px;
 }
 
 .container:hover .overlay {
