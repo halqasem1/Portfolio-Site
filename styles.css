@@ -23,6 +23,10 @@ body {
     width: 100%;
 }
 
+.links {
+    top: -250px;
+}
+
 li {
     padding: 1% 1%;
     float: right;
@@ -40,7 +44,7 @@ li a:hover {
 
 #openingLine {
     font-size: 45px;
-    margin-top: 10%;
+    margin-top: 16%;
     margin-left: 15%;
 }
 
@@ -53,7 +57,7 @@ li a:hover {
 #descriptionLine {
     margin-left: 15%;
     font-size: 30px;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
 }
 
 #aboutSection {
@@ -63,7 +67,7 @@ li a:hover {
     text-align: center;
     line-height: 1.7;
     margin: auto;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
     padding: 5%;
     border-radius: 20px;
     color: #bdcbe3;
@@ -75,13 +79,67 @@ li a:hover {
     color: #bdcbe3;
 }
 
+#projectsSection {
+    margin-bottom: 20%;
+}
+
 #projects {
     text-align: center;
     font-size: 45px;
 }
 
-#projectsSection {
-    margin-bottom: 30%;
+/* attempt 2 of overlay thing */
+
+#projectsContainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    margin: 10px;
+}
+
+img {
+    position: relative;
+    z-index: -1;
+    height: 200px;
+    width: 350px;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 350px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.projectDescription {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    line-height: 1.5;
 }
 
 #contactSection {
@@ -90,7 +148,7 @@ li a:hover {
 
 #contact {
     text-align: center;
-    margin-top: 30%;
+    margin-top: 20%;
     margin-bottom: 5%;
     font-size: 45px;
 }
