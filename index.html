@@ -18,18 +18,22 @@
   </head>
   <body>
     <nav>
-      <ul id="nav" class="fixedNav">
-        <li><a href="#contact" class="link">Contact</a></li>
-        <li><a href="#projectSection" class="link">Projects</a></li>
-        <li><a href="#aboutSection" class="link">About</a></li>
-        <li><a href="#home" class="link">Home</a></li>
-      </ul>
+      <div id="linksContainer">
+        <ul id="nav" class="fixedNav">
+          <li><a href="#contact" class="link">Contact</a></li>
+          <li><a href="#projectSection" class="link">Projects</a></li>
+          <li><a href="#aboutSection" class="link">About</a></li>
+          <li><a href="#home" class="link">Home</a></li>
+        </ul>
+      </div>
     </nav>
     <!-- Beginning of intro section -->
     <div id="home">
       <h2 id="openingLine">Hi there,</h2>
       <h1 id="introLine">I'm Hana Alqasem.</h1>
-      <h2 id="descriptionLine">I'm passionate about making great webpages.</h2>
+      <h2 id="descriptionLine">
+        I'm passionate about creating great webpages.
+      </h2>
     </div>
     <!-- End of intro section -->
     <!-- Beginning of about section -->
@@ -40,16 +44,106 @@
         I started teaching myself HTML at age nine in order to make websites for
         my Neopets. Later on, I made web pages for my middle school bandmates,
         and eventually I began studying JavaScript in order to make apps for
-        myself and my friends. When I'm not coding, I like to read, cook, hang
-        out in nature and do yoga.
+        myself and my friends. When I'm not coding, I like to read, cook and
+        hang out in nature.
       </p>
     </div>
     <!-- End of about section-->
     <!-- Beginning of project section -->
     <div id="projectSection">
       <h2 id="projects">Projects</h2>
-      <!-- Projects go here, labeled project 1, project 2, etc -->
-      <div id="projectsContainer"></div>
+      <div id="projectsContainer">
+        <div id="project1" class="project">
+          <div id="project1Container" class="container">
+            <a href="https://halqasem1.github.io/93-Ipsum/main/">
+              <img
+                src="https://github.com/halqasem1/93-Ipsum/blob/gh-pages/93ipsum.png?raw=true"
+                alt="93 Ipsum thumbnail"
+                class="image"
+              />
+              <div class="overlay">
+                <div id="93IpsumDescription" class="projectDescription">
+                  Custom lorem ipsum generator and oracle
+                </div>
+              </div>
+            </a>
+          </div>
+          <p class="projectTitle">93 Ipsum</p>
+        </div>
+        <div id="project2" class="project">
+          <div id="project2Container" class="container">
+            <a href="https://halqasem1.github.io/Lucid-Dream-Alarm/">
+              <img
+                src="https://github.com/halqasem1/Lucid-Dream-Alarm/blob/gh-pages/luciddreamalarm.png?raw=true"
+                alt="Lucid Dream Alarm thumbnail"
+                class="image"
+              />
+              <div class="overlay">
+                <div id="lucidDreamDescription" class="projectDescription">
+                  Preset alarm interval timer made to give the best chance of
+                  having a lucid dream
+                </div>
+              </div>
+            </a>
+          </div>
+          <p class="projectTitle">Lucid Dream Alarm</p>
+        </div>
+        <div id="project3" class="project">
+          <div id="project3Container" class="container">
+            <a href="https://halqasem1.github.io/Digital-Dreamachine/">
+              <img
+                src="https://github.com/halqasem1/Digital-Dreamachine/blob/gh-pages/digitaldreammachine.png?raw=true"
+                alt="Digital Dreamachine thumbnail"
+                class="image"
+              />
+              <div class="overlay">
+                <div
+                  id="digitalDreamachineDescription"
+                  class="projectDescription"
+                  class="image"
+                >
+                  Stroboscopic web experience for inducing altered brain states
+                </div>
+              </div>
+            </a>
+          </div>
+          <p class="projectTitle">Digital Dreamachine</p>
+        </div>
+        <div id="project4" class="project">
+          <div id="project4Container" class="container">
+            <img
+              src="https://github.com/halqasem1/Portfolio-Site/blob/main/projecttemplate.png?raw=true"
+              alt="Blank template thumbnail"
+              class="image"
+            />
+            <div class="overlay">
+              <div id="beefheadBFFDescription" class="projectDescription">
+                Location-based app that informs the user if their local Buffalo
+                Wild Wings has a sports event on so they don't have to wait in
+                line to get wings
+              </div>
+            </div>
+          </div>
+          <p class="projectTitle">Beefhead BFF - Under Construction!</p>
+        </div>
+        <div id="project5" class="project">
+          <div id="project5Container" class="container">
+            <img
+              src="https://github.com/halqasem1/Portfolio-Site/blob/main/projecttemplate.png?raw=true"
+              alt="Blank template thumbnail"
+              class="image"
+            />
+            <div class="overlay">
+              <div id="DHMDescription" class="projectDescription">
+                Location-based app that assesses the astrological placements of
+                the user's gut microbiome to determine where the microbiota
+                would like their querent eat
+              </div>
+            </div>
+          </div>
+          <p class="projectTitle">Microbiota Horoscope - Under Construction!</p>
+        </div>
+      </div>
     </div>
     <!-- Beginning of contact section -->
     <div id="contactSection">
