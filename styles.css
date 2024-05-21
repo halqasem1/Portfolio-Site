@@ -96,12 +96,11 @@ li a:hover {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin: auto;
 }
 
 .container {
     position: relative;
-    margin: 10px;
+    margin: auto 10px;
 }
 
 img {
